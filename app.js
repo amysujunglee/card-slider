@@ -50,7 +50,7 @@ const randomBtn = document.querySelector(".random-btn");
 // set the initial number
 let item = 0;
 
-// show a person based on number
+// show person based on item
 function showPerson() {
   const items = people[item];
   img.src = items.img;
@@ -59,6 +59,7 @@ function showPerson() {
   text.textContent = items.text;
 }
 
+// load initial item
 window.addEventListener("DOMContentLoaded", function() {
   showPerson();
 });
@@ -74,7 +75,7 @@ nextBtn.addEventListener("click", function() {
 prevBtn.addEventListener("click", function() {
   item--;
   if (item < 0) {
-    item = people.length + 1;
+    item = people.length - 1;
   }
   showPerson();
 });
