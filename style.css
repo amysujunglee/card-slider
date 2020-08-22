@@ -30,6 +30,10 @@ p {
 img {
   width: 100%;
 }
+.author {
+  font-size: 0.875rem;
+  font-weight: normal;
+}
 .container {
   background-color: #fff;
   width: 280px;
