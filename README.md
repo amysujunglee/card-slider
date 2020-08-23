@@ -1,3 +1,9 @@
 # card-slider
 
-Shuffling a card by clicking next, prev or random buttons.
+A cart slide to shuffle cards by clicking prev and next buttons.
+
+Languages used: JavaScript, HTML, CSS
+
+- Created reusable function
+- img.src
+- window.addEventListener('DOMContentLoaded', function(){...})
