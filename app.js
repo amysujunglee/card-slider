@@ -55,7 +55,7 @@ function showPerson() {
   const items = people[item];
   img.src = items.img;
   name.textContent = items.name;
-  job.textConent = items.job;
+  job.textContent = items.job;
   text.textContent = items.text;
 }
 
