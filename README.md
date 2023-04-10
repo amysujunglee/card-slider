@@ -1,5 +1,5 @@
 # Card Slider
-A perfect card slider using vanilla JavaScript
+A card slider using vanilla JavaScript
 
 ## Languages
 - JavaScript, HTML, CSS
